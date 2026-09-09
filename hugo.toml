@@ -3,13 +3,13 @@ languageCode = "en-us"
 title = "blog.ehn.nu"
 theme = "PaperMod"
 
-# Keep the WordPress URL shape so inbound links and search results survive.
-[permalinks]
-  posts = "/:year/:month/:slug/"
-
 paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
+
+# Keep the WordPress URL shape so inbound links and search results survive.
+[permalinks]
+  posts = "/:year/:month/:slug/"
 
 # The old posts are hand-written HTML in places. Goldmark needs to pass it through.
 [markup]
