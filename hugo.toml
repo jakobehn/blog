@@ -3,9 +3,11 @@ languageCode = "en-us"
 title = "blog.ehn.nu"
 theme = "PaperMod"
 
-paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
+
+[pagination]
+  pagerSize = 10
 
 # Keep the WordPress URL shape so inbound links and search results survive.
 [permalinks]
