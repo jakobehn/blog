@@ -1,0 +1,74 @@
+baseURL = "https://blog.ehn.nu/"
+languageCode = "en-us"
+title = "blog.ehn.nu"
+theme = "PaperMod"
+
+# Keep the WordPress URL shape so inbound links and search results survive.
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+paginate = 10
+enableRobotsTXT = true
+enableEmoji = true
+
+# The old posts are hand-written HTML in places. Goldmark needs to pass it through.
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "github"
+  [markup.tableOfContents]
+    endLevel = 3
+    startLevel = 2
+
+[params]
+  description = "Cloudy DevOps stuff with Azure"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  disableThemeToggle = false
+
+  [params.homeInfoParams]
+    Title = "blog.ehn.nu"
+    Content = "Cloudy DevOps stuff with Azure"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jakobehn"
+
+# Categories carried over from WordPress; tags were barely used.
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 10
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+[[menu.main]]
+  name = "About Me"
+  url = "/about-me/"
+  weight = 30
+[[menu.main]]
+  name = "Books"
+  url = "/books/"
+  weight = 40
+[[menu.main]]
+  name = "Speaking"
+  url = "/speaking/"
+  weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

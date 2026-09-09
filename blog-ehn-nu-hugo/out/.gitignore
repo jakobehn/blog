@@ -1,0 +1,6 @@
+/public/
+/resources/_gen/
+.hugo_build.lock
+image-failures.tsv
+*.part
+.DS_Store
