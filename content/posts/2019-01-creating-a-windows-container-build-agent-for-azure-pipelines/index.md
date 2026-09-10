@@ -5,7 +5,7 @@ slug: creating-a-windows-container-build-agent-for-azure-pipelines
 categories: [Azure DevOps, Build Automation, Docker]
 aliases: [/2019/01/creating-a-windows-container-build-agent-for-azure-pipelines/]
 cover:
-  image: "image_thumb-8.png"
+  image: "image-9.png"
   alt: "Creating a Windows Container Build Agent for Azure Pipelines"
 ---
 
@@ -32,7 +32,7 @@ All Docker images must inherit from a base image. In this case we will start wit
 
 If you have the Docker extension in VS Code installed, you can browse existing images and tags directly from the editor:
 
-[![image](image_thumb-8.png "image")](image-9.png)
+![image](image-9.png "image")
 
 I’m going to use the image with .NET Framework 4.7.2 SDK installed running in Windows Server Core:
 
@@ -44,7 +44,7 @@ In order to build .NET Framework apps we need to have the proper build tools ins
 
 In the lines shown below, I’m first downloading and installing Visual Studio Log Collection tool (vscollect) that let’s us capture the installation log. Then we download the build tools from the Visual Studio 2017 release channel feed.
 
-[![image](image_thumb-9.png "image")](image-10.png)
+![image](image-10.png "image")
 
 Finally we are instaling the build tools in quiet mode,specifying the desired components. Of course you might wamt to change this list to fit your needs.
 
@@ -52,9 +52,9 @@ Finally we are instaling the build tools in quiet mode,specifying the desired co
 
 You will most likely want to install additional tooling, besides the standard VS build tools. In my case, I want to install Node, the latest version of NET Core SDK and also web deploy. Many of these things can be installed easily using chocolatey, as shown below:
 
-[![image](image_thumb-10.png "image")](image-11.png)
+![image](image-11.png "image")
 
-[![image](image_thumb-11.png "image")](image-12.png)
+![image](image-12.png "image")
 
 Installing .NET Core SDK can be done by simply downloading it and extract it and update the PATH environment variable:
 
@@ -62,13 +62,13 @@ Installing .NET Core SDK can be done by simply downloading it and extract it and
 
 Finally we want to installl the Azure Pipelines build agent and configure it. Installing the agent will be done when we are building the Docker image. Configuring it against your Azure DevOps organization must be done when starting the image, which means will do this in the CMD part of the Dockerfile, and supply the necessary parameters.
 
-[![image](image_thumb-12.png "image")](image-13.png)
+![image](image-13.png "image")
 
-[![image](image_thumb-13.png "image")](image-14.png)
+![image](image-14.png "image")
 
 The *InstallAgent.ps1* script simply extracts the downloaded agent :
 
-[![image](image_thumb-14.png "image")](image-15.png)
+![image](image-15.png "image")
 
 *ConfigureAgent.ps1* will be executed when the container is started, and here we are using the unattended install option for the Azure Pipelines agent to configure it against an Azure DevOps organization:
 
@@ -76,7 +76,7 @@ The *InstallAgent.ps1* script simply extracts the downloaded agent :
 
 To build the image from the Dockerfile, run the following command:
 
-[![image](image_thumb-15.png "image")](image-16.png)
+![image](image-16.png "image")
 
 **docker build -t mybuildagent:1.0 -m 8GB .**
 
@@ -99,11 +99,11 @@ Replace the parameters in the above string:
 
 When you run the agent from command line you will see the id of the started Docker container. For troubleshooting you can run docker logs <id> to see the output from the build agent running in the container
 
-[![image](image_thumb-16.png "image")](image-17.png)
+![image](image-17.png "image")
 
 After around 30 seconds or so, you should see the agent appear in the list of available agents in your agent pool:
 
-[![image](image_thumb-17.png "image")](image-18.png)
+![image](image-18.png "image")
 
 Happy building!
 

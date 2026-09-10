@@ -5,7 +5,7 @@ slug: running-windows-container-build-agents-for-azure-pipelines
 categories: [Azure DevOps, Build Automation, Continuous Delivery, Docker, Microsoft Azure]
 aliases: [/2019/06/running-windows-container-build-agents-for-azure-pipelines/]
 cover:
-  image: "image_thumb.png"
+  image: "image.png"
   alt: "Running Windows Container Build Agents for Azure Pipelines"
 ---
 
@@ -130,13 +130,13 @@ One way to do this with Azure DevOps is to use [Deployment Groups](https://docs.
 
 Here is an image that shows what this could look like:
 
-[![image](image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 Here I have two build servers running Windows Server 2019 Core. The only things that are installed on these servers are Docker, Docker Compose and a Deployment Group agent. The deployment group agent will be used to stop the build agent containers, pull a new verison of the build agent image and then start them up again.
 
 Here is the deployment process in Azure Pipelines:
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 The process work like this:
 
@@ -151,7 +151,7 @@ Deployment groups are powerful in that they let you specify how to roll out new 
 
 If you do not want to restart all of your build agents at the same time, you can specify thise in the settings of the deployment group job:
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
 **Note:** One thing that is not handled by this process is graceful shutdown, e.g. if a build is currently running it will be stopped when shutting down the agents. It would be fully possible to utilize the Azure Pipelines API to first disable all agents (to prevent new builds from starting) and then wat until any currently running builds have finished, before shutting them down. I just haven’t done that yet 🙂
 

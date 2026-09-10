@@ -11,7 +11,7 @@ If you exceed this amount of storage, you will pay an additional fee for every G
 
 **Azure Container Registry pricing details**
 
-[![image_thumb[7]](image_thumb7_thumb.png "image_thumb[7]")](image_thumb7.png)
+![image_thumb[7]](image_thumb7.png "image_thumb[7]")
 
 100GB of included storage might sound much, but you will pretty soon find out that your CI pipelines will fill up this space with new image versions being pushed on every commit.
 
@@ -26,7 +26,7 @@ See my introductory post on Brigade here:\
 
 The overall solution will look like this:
 
-[![image_thumb[13]](image_thumb13_thumb.png "image_thumb[13]")](image_thumb13.png)
+![image_thumb[13]](image_thumb13.png "image_thumb[13]")
 
 Whenever a new image is pushed the an Azure Container Registry, it will send a request to a Brigade Container Registry gateway running in your Kubernetes cluster of choice. This will in turn kick off a build from a Brigade project, that contains a script that will authenticate back to the registry and purge a selected set of older images.
 
@@ -190,7 +190,7 @@ Note the format of the URL, read more about the Brigade container registry here:
 
 **Creating an ACR webhook**
 
-[![image_thumb[1]](image_thumb1_thumb.png "image_thumb[1]")](image_thumb1.png)
+![image_thumb[1]](image_thumb1.png "image_thumb[1]")
 
 To only receive events from one specific repository, I have specified the Scope property and set it to **acrdemo:***, which effectively filters out all other push events.
 
@@ -200,11 +200,11 @@ Let’s see if this works then, shall we? I’m pushing a new version of my demo
 
 I can see that a build has been kicked off for my project, and the result looks like this:
 
-[![image_thumb[4]](image_thumb4_thumb.png "image_thumb[4]")](image_thumb4.png)
+![image_thumb[4]](image_thumb4.png "image_thumb[4]")
 
 I can see that I got a image_push event and that the build contained one job called purge (that name was specified in the Javascript pipeline when creating the job). We can drill down into this job and see the output from the script that was executed:
 
-[![image_thumb[5]](image_thumb5_thumb.png "image_thumb[5]")](image_thumb5.png)
+![image_thumb[5]](image_thumb5.png "image_thumb[5]")
 
 Since I specfied minImageToKeep to 5, the script now deleted version 1.12 (leaving the 5 latest versions in the repository).
 

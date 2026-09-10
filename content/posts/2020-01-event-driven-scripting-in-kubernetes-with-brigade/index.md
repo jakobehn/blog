@@ -6,7 +6,7 @@ categories: [AKS, Azure DevOps, Kubernetes, Microsoft Azure]
 tags: [Azure, Events, Kubernetes]
 aliases: [/2020/01/event-driven-scripting-in-kubernetes-with-brigade/]
 cover:
-  image: "image_thumb.png"
+  image: "image.png"
   alt: "Event-driven scripting in Kubernetes with Brigade"
 ---
 
@@ -36,7 +36,7 @@ helm install brigade/brigade --name brigade-server
 
 The image below shows the main concepts in use by Brigade:
 
-[![image](image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 **Project**\
 For every automation workflow that you want to implement, you will create a project. Every project has some metadata attached to it, such as id, name and so on. It also either contains or reference the Javascript code that contains the pipeline logic.
@@ -144,7 +144,7 @@ events.on("after", (e) => {
 
 This code is triggered when the “simpleevent” event is triggered. This event is handled by the generic gateway in Brigade, and can be used to send any kind of information (as a json document) to your pipeline. To trigger this event, we configure a service hook in Azure DevOps for the Pull Request updated event, and point it to the generic gateway:
 
-[![SNAGHTMLae0651d[4]](SNAGHTMLae0651d4_thumb.png "SNAGHTMLae0651d[4]")](SNAGHTMLae0651d4.png)
+![SNAGHTMLae0651d[4]](SNAGHTMLae0651d4.png "SNAGHTMLae0651d[4]")
 
 The full URL looks like this:
 
@@ -168,11 +168,11 @@ To view the running jobs and their output, you can either use the brigade dashbo
 
 Here is the output from the PR job in the brigade terminal:
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 It shows that two jobs were executed in this build, and you can see the images that were used and the id of each job. To see the output of each job, just return into each job:
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
 Here you can see the the output of the helm job that deletes my helm deployment for the corresponding pull request.
 

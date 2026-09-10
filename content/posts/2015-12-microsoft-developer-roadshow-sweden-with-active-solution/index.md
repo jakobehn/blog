@@ -6,11 +6,11 @@ categories: [IoT, Microsoft Azure]
 tags: [IoT, Microsoft Azure]
 aliases: [/2015/12/microsoft-developer-roadshow-sweden-with-active-solution/]
 cover:
-  image: "image_thumb7.png"
+  image: "image7.png"
   alt: "Microsoft Developer Roadshow Sweden with Active Solution"
 ---
 
-[![image](image_thumb7.png "image")](image7.png)
+![image](image7.png "image")
 
 This december we at [Active Solution](http://activesolution.se) team up with Microsoft Sweden to deliver a full day of Azure and Internet of Things (IoT) goodness in 4 different cities around Sweden:
 

@@ -5,7 +5,7 @@ slug: running-net-core-unit-tests-with-docker-and-azure-pipelines
 categories: [Azure DevOps]
 aliases: [/2019/01/running-net-core-unit-tests-with-docker-and-azure-pipelines/]
 cover:
-  image: "image_thumb.png"
+  image: "image.png"
   alt: "Running .NET Core Unit Tests with Docker and Azure Pipelines"
 ---
 
@@ -42,7 +42,7 @@ The result is a smaller Docker image that will be pushed to a Docker registry an
 
 Now, this will compile just fine locally, and settting a build definition in Azure Pipelines is easy-peasy. Using the default ***Docker container*** build pipeline template, results in a build like this:
 
-[![image](image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 But, we want to run unit tests also, and then publish the test results back to Azure DevOps. How can we do this?
 
@@ -96,11 +96,11 @@ Here we first build the image by using *docker build*. By using the *–target* 
 
 Now we will have the TRX test results file in the artifact folder on the build server, which means we can just add a ***Publish Test Results*** task to our build definition:
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 And voila, running the build now runs the unit tests and we can see the test results in the build summary as expected:
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
 ---
 

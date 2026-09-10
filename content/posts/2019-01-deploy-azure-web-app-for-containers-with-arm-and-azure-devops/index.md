@@ -4,7 +4,7 @@ date: 2019-01-13T22:25:17Z
 slug: deploy-azure-web-app-for-containers-with-arm-and-azure-devops
 aliases: [/2019/01/deploy-azure-web-app-for-containers-with-arm-and-azure-devops/]
 cover:
-  image: "image_thumb1_thumb.png"
+  image: "image_thumb1.png"
   alt: "Deploy Azure Web App for Containers with ARM and Azure DevOps"
 ---
 
@@ -31,7 +31,7 @@ The release definition is available here:\
 
 First up is creating an ARM template that will deploy the web app resource to your Azure subscription. Creating an ARM template for a web app is easy, you can use the **Azure Resource Group** project in Visual Studio (this template is installed with the Azure SDK) and select the Web app template:
 
-[![image_thumb1](image_thumb1_thumb.png "image_thumb1")](image_thumb1.png)
+![image_thumb1](image_thumb1.png "image_thumb1")
 
 [\](file:///C:/Users/jakobe/AppData/Local/Temp/OpenLiveWriter1510372289/supfiles126F4E9/image4.png)
 
@@ -178,10 +178,10 @@ Finally we set the following app settings:
 
 That’s it. Running the release deployes the resource group (will take 1-2 minutes the first time) and then the container to the web app. Once done, you can browse the site and verify that it works as expected:
 
-[![image](image_thumb-4.png "image")](image-5.png)
+![image](image-5.png "image")
 
-[![image](image_thumb-5.png "image")](image-6.png)
+![image](image-6.png "image")
 
-[![image](image_thumb-6.png "image")](image-7.png)
+![image](image-7.png "image")
 
-[![image](image_thumb-7.png "image")](image-8.png)
+![image](image-8.png "image")

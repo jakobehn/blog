@@ -5,7 +5,7 @@ slug: getting-started-with-windows-containers-in-azure-kubernetes-service
 categories: [AKS, Docker, Kubernetes, Microsoft Azure]
 aliases: [/2019/06/getting-started-with-windows-containers-in-azure-kubernetes-service/]
 cover:
-  image: "image_thumb-3.png"
+  image: "image-3.png"
   alt: "Getting started with Windows Containers in Azure Kubernetes Service"
 ---
 
@@ -259,6 +259,6 @@ Open a browser and navigate to the exernal IP address, in a few seconds you shou
 
 This was a very simple walkthrough on how to get started with Windows applications on Azure Kubernetes Service. Hope you found it useful, and stay tuned for more blog posts on AKS and Windows in the near future!
 
-[![image](image_thumb-3.png "image")](image-3.png)
+![image](image-3.png "image")
 
-[![image](image_thumb-5.png "image")](image-5.png)
+![image](image-5.png "image")

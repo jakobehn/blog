@@ -5,7 +5,7 @@ slug: downloading-build-artifacts-in-tfs-build-vnext
 categories: [Build Automation, Release Management, TFS, Visual Studio Team Services]
 aliases: [/2016/01/downloading-build-artifacts-in-tfs-build-vnext/]
 cover:
-  image: "3_image_thumb.png"
+  image: "image.png"
   alt: "Downloading Build Artifacts in TFS Build vNext"
 ---
 
@@ -112,7 +112,7 @@ Running a PowerShell script in TFS Build is really easy, but I’ll include it h
 
 Add the script to source control and then add a *PowerShell* task to the build definition and select the script from the repository. Then specify the parameters of the tasks in the argument field
 
-[![image](3_image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 Here is a sample argument:
 

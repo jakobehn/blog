@@ -5,7 +5,7 @@ slug: how-visual-studio-2019-supports-containerized-applications
 categories: [Docker]
 aliases: [/2020/02/how-visual-studio-2019-supports-containerized-applications/]
 cover:
-  image: "image_thumb.png"
+  image: "image.png"
   alt: "How Visual Studio 2019 supports containerized applications"
 ---
 
@@ -26,7 +26,7 @@ If you have a .NET or .NET Core application open in Visual Studio, you can right
 
 Here, I have a ASP.NET Core 3.1 web application called MyDockerWebApp:
 
-[![image](image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 This will generate the following Dockerfile and add it to the project:
 

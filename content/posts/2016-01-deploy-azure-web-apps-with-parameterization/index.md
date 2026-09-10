@@ -5,7 +5,7 @@ slug: deploy-azure-web-apps-with-parameterization
 categories: [Build Automation, Continuous Delivery, Release Management, TFS, Visual Studio Team Services]
 aliases: [/2016/01/deploy-azure-web-apps-with-parameterization/]
 cover:
-  image: "image_thumb-1.png"
+  image: "image-1.png"
   alt: "Deploy Azure Web Apps with Parameterization"
 ---
 
@@ -35,7 +35,7 @@ Publish-AzureWebsiteProject -Name Site1 -Package package.zip -SetParametersFile 
 
 When using the Azure Web App Deployment task, there is no separate parameter for this but you can use the *Additional Arguments* parameter to pass this information in:
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 ***Note: In this case, I am using the Azure Web App Deployment task as part of a release definition in Visual Studio Release Management, but you can also use it in a regular build definition.***
 

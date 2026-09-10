@@ -5,7 +5,7 @@ slug: publish-a-github-release-from-visual-studio-team-services
 categories: [Build Automation, TFS API, Visual Studio Team Services]
 aliases: [/2016/03/publish-a-github-release-from-visual-studio-team-services/]
 cover:
-  image: "2_image_thumb.png"
+  image: "image.png"
   alt: "Publish a GitHub Release from Visual Studio Team Services"
 ---
 
@@ -20,17 +20,17 @@ To make this easy, I have developed a custom build task lets you publish your bu
 > The task is available over at the new [Visual Studio Marketplace](https://marketplace.visualstudio.com), you can find the extension here: \
 > [https://marketplace.visualstudio.com/items?itemName=jakobehn.jakobehn-vsts-github-tasks](https://marketplace.visualstudio.com/items?itemName=jakobehn.jakobehn-vsts-github-tasks "https://marketplace.visualstudio.com/items?itemName=jakobehn.jakobehn-vsts-github-tasks")
 
-[![image](2_image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 To use it, just press the Install button and select the VSTS account where you want to install it. After this, the Publish GitHub Release build task will be available in your build task catalog, in the Deploy category.
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 > From Team Foundation Server 2015 Update 2, it is possible to install the extensions from the VS Marketplace on premise. To do so, use the Download button and follow the instructions.
 
 After adding the build task to a build definition, you need to configure a few parameters:
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
 These parameters are:
 

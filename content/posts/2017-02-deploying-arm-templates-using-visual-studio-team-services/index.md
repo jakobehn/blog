@@ -29,7 +29,7 @@ With the Redis cache however, Azure Resource Manager will create some informatio
 
 Here is the outline of our ARM template:
 
-[![image](1_image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 Note the outputs section that is selected above, here we define what output we want to capture once the reource group has been deployed. In this case, I have defined three output variables:
 
@@ -100,7 +100,7 @@ There is an existing task for creating and updating ARM templates, called **Azur
 
 Here is an example how how this task is typically used:
 
-[![image](image4_thumb.png "image")](image4.png)
+![image](image4.png "image")
 
 The problem with this task is that it has very limited support for output parameters. As you can see in the image above, you can map a variable to the output called Resource Group. Unfortunately there is an assumption that the resource group that you are creating contains virtual machines. If you execute this task with an ARM template containing for example an Azure Web App you will get the following error when trying to map the output to a variable:
 
@@ -186,11 +186,11 @@ Let’s walk through the steps:
 
 That’s it, happy deployment! 🙂
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
-[![image](image_thumb-3.png "image")](image-3.png)
+![image](image-3.png "image")
 
 ---
 

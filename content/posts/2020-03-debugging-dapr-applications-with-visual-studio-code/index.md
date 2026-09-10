@@ -6,7 +6,7 @@ categories: [Architecture, Microservices]
 tags: [Architecture, Dapr, Microservices]
 aliases: [/2020/03/debugging-dapr-applications-with-visual-studio-code/]
 cover:
-  image: "image_thumb.png"
+  image: "image.png"
   alt: "Debugging Dapr applications with Visual Studio Code"
 ---
 
@@ -36,7 +36,7 @@ Next up, we will be using a Visual Studio Code extension for Dapr that can autom
 
 <https://github.com/microsoft/vscode-dapr>
 
-[![image](image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 Let’s create a ASP.NET Core web application and see how we can build, run and debug this application using Visual Studio Code.
 
@@ -47,7 +47,7 @@ Let’s create a ASP.NET Core web application and see how we can build, run and 
    If you don’t see them you need to restore and build the project at least once in VSCode.After that, hit CTRL + P and then select **Dapr: Scaffold Dapr Tasks\
     \**
 
-[![image](image_thumb-1.png "image")](image-1.png)
+![image](image-1.png "image")
 
 **\**\
 - For the configuration, select the **.NET Core Launch (web)** configuration
@@ -55,11 +55,11 @@ Let’s create a ASP.NET Core web application and see how we can build, run and 
 - When done, take a look at the launch.json file. You’ll see that the extension added a new configuration called **.NET Core Launch (web) with Dapr**. It is very similar to the default .NET Core launch configuration, but is has a special preLaunchTask and a postDebugTask. These tasks have also been added by the extension to the tasks.json file
 - Take a look at Tasks.json to see the new tasks:
 
-[![image](image_thumb-2.png "image")](image-2.png)
+![image](image-2.png "image")
 
-[![image](image_thumb-3.png "image")](image-3.png)
+![image](image-3.png "image")
 
-[![image](image_thumb-4.png "image")](image-4.png)
+![image](image-4.png "image")
 
 You can see that the darp-debug task has the type “daprd” which is a reference to the Dapr CLI debugger. The task depends on the build task, which means that it will trigger a build when you launch the configuration. The other task is daprd-down, which is called when you stop a debug session, which enables the extension to finish Daprd correctly.\
 - To debug the application, simply navigate to the Run tab and select the **.NET Core Launch (web) with Dapr** configuration in the dropdown bar at the top:
@@ -69,27 +69,27 @@ You can see that the darp-debug task has the type “daprd” which is a referen
 
 What about running and debugging multiple Dapr applications at the same time? If you for example have a web app that calls an API app, you would most likely want to be able ro run and debug them simultaneously.
 
-[![image](image_thumb-5.png "image")](image-5.png)
+![image](image-5.png "image")
 
-[![image](image_thumb-6.png "image")](image-6.png)
+![image](image-6.png "image")
 
 It works pretty much the same way. Here I have added a ASP.NET Core Web API application, and then added another launch configuration:
 
-[![image](image_thumb-7.png "image")](image-7.png)
+![image](image-7.png "image")
 
 To be able to build and run both applications at the same time, the best way is to add a solution file with the two projects in it, and then change the **Build** task to build from the solution folder instead.
 
 Here I have changed the argument to the build command to point to the workspace folder root:
 
-[![image](image_thumb-8.png "image")](image-8.png)
+![image](image-8.png "image")
 
 Now, to easily start both applications with a single command, you can add a **compound** launch configuration that will reference the applications that you want to start. Add the following to your launch.json file:
 
-[![image](image_thumb-9.png "image")](image-9.png)
+![image](image-9.png "image")
 
 Select this configuration when starting a debug session in VSCode, this will start up both applications at the same time.
 
-[![image](image_thumb-10.png "image")](image-10.png)
+![image](image-10.png "image")
 
 I hope this post was helpful, I’ll write more posts about Dapr in the near future so stay tuned
 

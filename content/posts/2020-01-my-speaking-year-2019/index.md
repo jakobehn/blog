@@ -32,11 +32,11 @@ For this conference I brought my 11-year old son Svante with me as company. He j
 
 Svante in a nice WinOps t-shirt
 
-[![winops1](winops1_thumb.jpg "winops1")](winops1.jpg)
+![winops1](winops1.jpg "winops1")
 
 Ready for some afternoon tea!
 
-[![winops2](winops2_thumb.jpg "winops2")](winops2.jpg)
+![winops2](winops2.jpg "winops2")
 
 ## NDC London
 
@@ -47,7 +47,7 @@ Here is a link to the recording of this session:\
 
 NDC is well known for organizing great conferences and taking care of their attendees and speakers. I enjoyed hanging out with the other speakers during the conference.
 
-[![ndclondon](ndclondon_thumb.jpg "ndclondon")](ndclondon.jpg)
+![ndclondon](ndclondon.jpg "ndclondon")
 
 ## MVP Summit (Seattle)
 
@@ -63,7 +63,7 @@ Celebrating TFS (mow Azure DevOps) on it’s 13th birthday 🙂
 
 During the summit I had my avatar drawn live with the one and only @reverentgeek (David Neal)
 
-[![mvpsummit2](mvpsummit2_thumb.jpg "mvpsummit2")](mvpsummit2.jpg)
+![mvpsummit2](mvpsummit2.jpg "mvpsummit2")
 
 ## DevSum (Stockholm)
 
@@ -73,7 +73,7 @@ This time, I did my “A Lap around Azure DevOps” talk again. It’s always ni
 
 Of course, things are changing so every time I redeliver a talk I end up changing both slides and demos in order to incorporate new things. This time I had no Internet problems so all the demos went as planned!
 
-[![devsum](devsum_thumb.jpg "devsum")](devsum.jpg)
+![devsum](devsum.jpg "devsum")
 
 ## Ignite Tour Stockholm
 
@@ -85,11 +85,11 @@ Of course, things are changing so every time I redeliver a talk I end up changin
 
 Talking about Kubernetes and AKS
 
-[![ignite2](ignite2_thumb.jpg "ignite2")](ignite2.jpg)
+![ignite2](ignite2.jpg "ignite2")
 
 Using Docker for build automation
 
-[![ignite1](ignite1_thumb.jpg "ignite1")](ignite1.jpg)
+![ignite1](ignite1.jpg "ignite1")
 
 ## NDC Sydney
 
@@ -104,23 +104,23 @@ Here is a link to the recording:\
 
 Visiting friend and fellow MVP Adam Cogan and his wife Anastasia over at Coogee beach
 
-[![sydney1](sydney1_thumb.jpg "sydney1")](sydney1.jpg)
+![sydney1](sydney1.jpg "sydney1")
 
 A mandatory shot of the Opera house in the Sydney harbour
 
-[![sydney2](sydney2_thumb.jpg "sydney2")](sydney2.jpg)
+![sydney2](sydney2.jpg "sydney2")
 
-[![sydney4](sydney4_thumb.jpg "sydney4")](sydney4.jpg)
+![sydney4](sydney4.jpg "sydney4")
 
 Registration opens at NDC, which
 
 Heather Downing opened the conference with a keynote on how to treat and motivate your software engineers
 
-[![sydney5](sydney5_thumb.jpg "sydney5")](sydney5.jpg)
+![sydney5](sydney5.jpg "sydney5")
 
 The (in)famous PubConf was held on friday night after the NDC conference ended
 
-[![sydney6](sydney6_thumb.jpg "sydney6")](sydney6.jpg)
+![sydney6](sydney6.jpg "sydney6")
 
 Beautiful night skyline of Sydney
 
@@ -134,7 +134,7 @@ This time, I coordinated a bit with my colleague Chris Klug (@zerokoll). Since w
 
 Waiting for everyone to take their seat
 
-[![techdays1](techdays1_thumb.jpg "techdays1")](techdays1.jpg)
+![techdays1](techdays1.jpg "techdays1")
 
 ## UpdateConf (Prague)
 
@@ -144,15 +144,15 @@ At UpdateConf, I delivered a new session that is called “Event-driven computin
 
 My colleague Cecilia Wiren (@ceciliasharp) about to start one of her sessions
 
-[![prag1](prag1_thumb.jpg "prag1")](prag1.jpg)
+![prag1](prag1.jpg "prag1")
 
 Me speaking about Brigade and Keda
 
-[![prag2](prag2_thumb.jpg "prag2")](prag2.jpg)
+![prag2](prag2.jpg "prag2")
 
 Action pic 🙂
 
-[![prag3](prag3_thumb.jpg "prag3")](prag3.jpg)
+![prag3](prag3.jpg "prag3")
 
 ## CloudBrew (Mechelen, Belgium)
 
@@ -162,19 +162,19 @@ I delivered the session about event-driven computing with Kubernetes again, this
 
 Alex Mangs opened the conference with a keynote looking at the future of Azure
 
-[![cloudbrew3](cloudbrew3_thumb.jpg "cloudbrew3")](cloudbrew3.jpg)
+![cloudbrew3](cloudbrew3.jpg "cloudbrew3")
 
 Time to talk about Brigade and Keda again
 
-[![cloudbrew2](cloudbrew2_thumb.jpg "cloudbrew2")](cloudbrew2.jpg)
+![cloudbrew2](cloudbrew2.jpg "cloudbrew2")
 
 My colleague Alan Smith preparing for his session
 
-[![cloudbrew4](cloudbrew4_thumb.jpg "cloudbrew4")](cloudbrew4.jpg)
+![cloudbrew4](cloudbrew4.jpg "cloudbrew4")
 
 A great speaker dinner with both old a new friends
 
-[![cloudbrew1](cloudbrew1_thumb.jpg "cloudbrew1")](cloudbrew1.jpg)
+![cloudbrew1](cloudbrew1.jpg "cloudbrew1")
 
 ## Summary
 

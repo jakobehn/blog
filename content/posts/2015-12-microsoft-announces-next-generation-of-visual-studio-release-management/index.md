@@ -4,7 +4,7 @@ date: 2015-12-07T21:11:48Z
 slug: microsoft-announces-next-generation-of-visual-studio-release-management
 aliases: [/2015/12/microsoft-announces-next-generation-of-visual-studio-release-management/]
 cover:
-  image: "image_thumb1.png"
+  image: "image1.png"
   alt: "Microsoft Announces Next Generation of Visual Studio Release Management"
 ---
 
@@ -16,7 +16,7 @@ So, what’s this new version about? Let’s summarize some of the major feature
 
 The existing version of Visual Studio Release Management, that was originally acquired from InCycle back in 2013, uses a standalone WPF client for authoring, triggering and tracking releases. It always felt a bit awkward and wasn’t really integrated with the rest of TFS. The new version is completely rewritten to be a web based experience and is part of the web access, as a new “Release” tab.
 
-[![image](4_image_thumb.png "image")](image.png)
+![image](image.png "image")
 
 From this hub you can author release definitions, manage approval workflows and trigger and track releases.
 
@@ -26,7 +26,7 @@ With the new build system in TFS 2015, Microsoft already has a great automation 
 
 It also means that all the new build tasks that are available in TFS Build 2015 and also be used as part of a release pipeline.
 
-[![image](image_thumb1.png "image")](image1.png)
+![image](image1.png "image")
 
 ###
 
@@ -34,7 +34,7 @@ It also means that all the new build tasks that are available in TFS Build 2015 
 
 As mentioned above, since the same agent is used for releases, it means that we can also run them on Linux and OS/X since these are supported platforms. There are many tasks out of the box for doing cross platform deployment, including Chef and Docker.
 
-[![image](image_thumb2.png "image")](image2.png)
+![image](image2.png "image")
 
 ###
 
@@ -42,7 +42,7 @@ As mentioned above, since the same agent is used for releases, it means that we 
 
 The new web UI makes it easy to get an overview of the status of your existing environments, and which version of which application that is currently deployed. In the example below we can see that the new release of the “QuizBox” application has been deployed to Dev and QA, has gone through automated and manual acceptance tests, and is currently being deployed to the staging slot of the production environment.
 
-[![image](image_thumb3.png "image")](image3.png)
+![image](image3.png "image")
 
 ##
 
@@ -52,13 +52,13 @@ One of the biggest challenges with doing staged deployments is the configuration
 
 We can easily compare the configuration variables across our environments, as shown below.
 
-[![image](image_thumb4.png "image")](image4.png)
+![image](image4.png "image")
 
 ## Live Release Log Output
 
 As with the new build system in TFS 2015, VSRM vNext gives you excellent real time logging from the release agent, as the release is executing. \
 
-[![image](image_thumb5.png "image")](image5.png)
+![image](image5.png "image")
 
 ## Release Approval
 
@@ -66,7 +66,7 @@ Every environment in the release pipeline can trigger approvals, either before t
 
 Below you can see a release that has a pending approval. Every approver that should take action will receive a notification email with a link to this page.
 
-[![image](image_thumb6.png "image")](image6.png)
+![image](image6.png "image")
 
 # Do you want to learn more?
 
