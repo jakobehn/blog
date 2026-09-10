@@ -1,7 +1,3 @@
-# Self-contained Blowfish config for side-by-side evaluation against PaperMod.
-# Run with: hugo server --config config/blowfish/hugo.toml
-# The root hugo.toml remains the live PaperMod configuration.
-
 baseURL = "https://blog.ehn.nu/"
 locale = "en-us"
 defaultContentLanguage = "en"
