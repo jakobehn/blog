@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   description = "Cloudy DevOps stuff with Azure"
   defaultTheme = "auto"
-  images = ["cover.png"]
+  images = ["cover.jpg"]
   ShowReadingTime = true
   ShowWordCount = true
   ShowCodeCopyButtons = true
@@ -45,8 +45,8 @@ enableEmoji = true
   disableThemeToggle = false
 
   [params.homeInfoParams]
-    Title = "blog.ehn.nu 👋"
-    Content = "Cloudy DevOps stuff with Azure — build pipelines, platform engineering and the occasional war story. Blogging since 2009."
+    Title = "Cloudy DevOps on Azure"
+    Content = "Blogging about DevOps on Azure since 2009"
 
   [params.cover]
     linkFullImages = true
@@ -77,7 +77,7 @@ enableEmoji = true
 # Posts without a usable image of their own fall back to the site cover.
 [[cascade]]
   [cascade.cover]
-    image = "cover.png"
+    image = "cover.jpg"
     alt = "blog.ehn.nu"
   [cascade._target]
     path = "/posts/**"
