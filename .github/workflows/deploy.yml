@@ -28,7 +28,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          submodules: recursive   # the theme lives in themes/PaperMod
+          submodules: recursive   # themes/blowfish (live) and themes/PaperMod (rollback)
           fetch-depth: 0          # needed for .Lastmod from git history
 
       - uses: actions/configure-pages@v5
@@ -39,7 +39,7 @@ jobs:
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify
+        run: hugo --minify --config config/blowfish/hugo.toml
 
       - uses: actions/upload-pages-artifact@v3
         with:
