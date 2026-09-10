@@ -19,7 +19,7 @@ First of all, we need to setup a release template in Visual Studio Release Manag
 
 [![image](6_image_thumb_1.png "image")](https://gwb.blob.core.windows.net/jakob/WindowsLiveWriter/TriggerVisualStudioReleaseManagementvNex_10DB1/image_4.png)
 
-Here I have specified a shared folder, [\localhostbuildoutput](file://\localhostbuildoutput). Beneath this path, VSRM will look for a folder that typically correspond to a build number that we will pass in using the API, as you will see later on.
+Here I have specified a shared folder, `\\localhost\buildoutput`. Beneath this path, VSRM will look for a folder that typically correspond to a build number that we will pass in using the API, as you will see later on.
 
 Next, we create our release template. To be able to trigger a build using the API, make sure that you tick the “*Can trigger a release from a Build?*” checkbox:
 

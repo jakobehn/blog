@@ -1,0 +1,37 @@
+{{/* Site override of Blowfish's render-link. Some migrated WordPress posts contain
+   malformed file:// UNC destinations that make urls.Parse abort the build, so the
+   parse is guarded and bad destinations are emitted verbatim. */}}
+{{- $parsed := try (urls.Parse .Destination) -}}
+{{- $href := .Destination -}}
+{{- if not $parsed.Err -}}
+  {{- $u := $parsed.Value -}}
+  {{- $href = $u.String -}}
+  {{- if strings.HasPrefix $u.String "#" -}}
+    {{- $href = printf "%s#%s" .PageInner.RelPermalink $u.Fragment -}}
+  {{- else if and $href (not $u.IsAbs) -}}
+    {{- $path := strings.TrimPrefix "./" $u.Path -}}
+    {{- with or
+      ($.PageInner.GetPage $path)
+      ($.PageInner.Resources.Get $path)
+      (resources.Get $path)
+    -}}
+      {{- $href = .RelPermalink -}}
+      {{- with $u.RawQuery -}}
+        {{- $href = printf "%s?%s" $href . -}}
+      {{- end -}}
+      {{- with $u.Fragment -}}
+        {{- $href = printf "%s#%s" $href . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $forceNewTab := .Page.Params.externalLinkForceNewTab | default (.Page.Site.Params.article.externalLinkForceNewTab | default true) -}}
+{{- $isExternal := or (strings.HasPrefix .Destination "http:") (strings.HasPrefix .Destination "https:") -}}
+{{- $newTab := and $forceNewTab $isExternal -}}
+
+<a href="{{ $href }}" {{ with .Title }}title="{{ . }}"{{ end }}
+  {{- if $newTab }} target="_blank" rel="noreferrer"{{ end }}>
+  {{- .Text | safeHTML -}}
+</a>
+{{- /* Trim EOF */ -}}

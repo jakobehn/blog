@@ -21,9 +21,9 @@ However, most of the times this is not what the developer will do, they just wan
    **Note:** You can actually search in the log window, press Ctrl+F and you will get a little search box at the bottom. Nice! \
 4. On the MSTest command line call, locate the /*resultsfileroot* parameter, which points to the folder where the test results are stored \
 5. Note that this path is local for the build server, so you need to replace the drive letter with the server name: \
-   *D:BuildsProjectTestResults \
+   `D:\Builds\Project\TestResults` \
    to \
-   [ProjectTestResults">\<BuildServer>ProjectTestResults](file://\<BuildServer>ProjectTestResults) \*
+   `\\<BuildServer>\Builds\Project\TestResults`
 6. Double-click on the .trx file and you will notice that it loads much faster compared to opening it from the build log window
 
 ---

@@ -33,8 +33,6 @@ First up is creating an ARM template that will deploy the web app resource to yo
 
 ![image_thumb1](image_thumb1.png "image_thumb1")
 
-[\](file:///C:/Users/jakobe/AppData/Local/Temp/OpenLiveWriter1510372289/supfiles126F4E9/image4.png)
-
 Now, we need to make some changes in order to deploy this web app as a container. FIrst of all we will change some settings of the App Service Plan.
 
 Set the “**kind**” property to “**linux**”, to specify that this is a Linux hosted web app (Windows containers for Web Apps are in preview at the moment).

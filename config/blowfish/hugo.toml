@@ -3,7 +3,7 @@
 # The root hugo.toml remains the live PaperMod configuration.
 
 baseURL = "https://blog.ehn.nu/"
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "en"
 title = "blog.ehn.nu"
 theme = "blowfish"
@@ -116,8 +116,8 @@ enableEmoji = true
 
 [languages]
   [languages.en]
-    languageCode = "en-us"
-    languageName = "English"
+    locale = "en-us"
+    label = "English"
     weight = 1
     title = "blog.ehn.nu"
 
