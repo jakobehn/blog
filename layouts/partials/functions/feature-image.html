@@ -1,0 +1,14 @@
+{{/* Site override of the Blowfish partial: also honour PaperMod's `cover.image`
+   front matter so both themes can share the same migrated posts. */}}
+{{ $featureImage := .Params.featureimage }}
+{{ if not $featureImage }}
+  {{ with .Params.cover }}
+    {{ with .image }}{{ $featureImage = . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $featureImage }}
+  {{ range .Translations }}
+    {{ with .Params.featureimage }}{{ $featureImage = . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return $featureImage }}
