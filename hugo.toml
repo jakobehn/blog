@@ -1,13 +1,19 @@
+# Self-contained Blowfish config for side-by-side evaluation against PaperMod.
+# Run with: hugo server --config config/blowfish/hugo.toml
+# The root hugo.toml remains the live PaperMod configuration.
+
 baseURL = "https://blog.ehn.nu/"
-languageCode = "en-us"
+locale = "en-us"
+defaultContentLanguage = "en"
 title = "blog.ehn.nu"
-theme = "PaperMod"
+theme = "blowfish"
 
 enableRobotsTXT = true
 enableEmoji = true
 
+# Blowfish has no `archives` layout, so the archive is the year-grouped post list.
 [pagination]
-  pagerSize = 10
+  pagerSize = 100
 
 # Keep the WordPress URL shape so inbound links and search results survive.
 [permalinks]
@@ -15,6 +21,10 @@ enableEmoji = true
 
 # The old posts are hand-written HTML in places. Goldmark needs to pass it through.
 [markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.parser.attribute]
+      block = true
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
@@ -27,85 +37,120 @@ enableEmoji = true
     endLevel = 3
     startLevel = 2
 
-[params]
-  description = "Cloudy DevOps stuff with Azure"
-  defaultTheme = "auto"
-  images = ["cover.jpg"]
-  ShowReadingTime = true
-  ShowWordCount = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  ShowBreadCrumbs = false
-  ShowPostNavLinks = true
-  ShowShareButtons = true
-  ShowRssButtonInSectionTermList = true
-  ShowAllPagesInArchive = true
-  ShowPageNums = true
-  disableThemeToggle = false
-
-  [params.homeInfoParams]
-    Title = "Cloudy DevOps on Azure"
-    Content = "Blogging about DevOps on Azure since 2009"
-
-  [params.cover]
-    linkFullImages = true
-    responsiveImages = true
-    hiddenInSingle = true
-
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ["title", "permalink", "summary", "content"]
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/jakobehn"
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-
-# Categories carried over from WordPress; tags were barely used.
 [taxonomies]
   category = "categories"
   tag = "tags"
 
-# Posts without a usable image of their own fall back to the site cover.
-[[cascade]]
-  [cascade.cover]
-    image = "cover.jpg"
-    alt = "blog.ehn.nu"
-  [cascade._target]
-    path = "/posts/**"
+# Blowfish's client-side search reads the home page JSON output.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  colorScheme = "slate"
+  defaultAppearance = "light"
+  autoSwitchAppearance = true
+  enableSearch = true
+  enableCodeCopy = true
+  mainSections = ["posts"]
+  robots = "index, follow"
+
+  # Posts without a usable image of their own fall back to the site cover.
+  defaultFeaturedImage = "img/cover.jpg"
+
+  [params.header]
+    layout = "basic"
+
+  [params.footer]
+    showMenu = true
+    showCopyright = true
+    showThemeAttribution = true
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+    showRecentItems = 10
+    showMoreLink = true
+    showMoreLinkDest = "/posts/"
+    cardView = true
+
+  [params.article]
+    showDate = true
+    showDateUpdated = false
+    showAuthor = true
+    showBreadcrumbs = false
+    showDraftLabel = true
+    showEdit = false
+    showHeadingAnchors = true
+    showPagination = true
+    invertPagination = false
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = true
+    showWordCount = true
+    showComments = false
+    showRelatedContent = true
+    relatedContentLimit = 3
+    sharingLinks = ["linkedin", "bluesky", "reddit", "email"]
+
+  [params.list]
+    showBreadcrumbs = false
+    showSummary = true
+    showTableOfContents = false
+    showCards = true
+    groupByYear = true
+    cardView = true
+
+  [params.taxonomy]
+    showTermCount = true
+    cardView = true
+
+  [params.term]
+    showHero = false
+    showBreadcrumbs = false
+    showTableOfContents = false
+
+  [params.sitemap]
+    excludedKinds = []
+
+[languages]
+  [languages.en]
+    locale = "en-us"
+    label = "English"
+    weight = 1
+    title = "blog.ehn.nu"
+
+    [languages.en.params]
+      description = "Cloudy DevOps stuff with Azure"
+
+      [languages.en.params.author]
+        name = "Jakob Ehn"
+        image = "img/author.jpg"
+        headline = "Azure MVP, Cloud Solution Architect"
+        bio = "Blogging about DevOps on Azure since 2009."
+        links = [
+          { github = "https://github.com/jakobehn" },
+          { rss = "/index.xml" },
+        ]
 
 [[menu.main]]
   name = "Archive"
-  url = "/archives/"
+  pageRef = "/posts"
   weight = 10
 [[menu.main]]
   name = "Categories"
-  url = "/categories/"
+  pageRef = "/categories"
   weight = 20
 [[menu.main]]
   name = "About Me"
-  url = "/about-me/"
+  pageRef = "/about-me"
   weight = 30
 [[menu.main]]
   name = "Books"
-  url = "/books/"
+  pageRef = "/books"
   weight = 40
 [[menu.main]]
   name = "Speaking"
-  url = "/speaking/"
+  pageRef = "/speaking"
   weight = 50
-[[menu.main]]
-  name = "Search"
-  url = "/search/"
-  weight = 60
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
