@@ -4,6 +4,9 @@ date: 2009-06-03T22:27:43Z
 slug: tfs-team-build-2010-executing-unit-tests
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2009/06/tfs-team-build-2010-executing-unit-tests/]
+cover:
+  image: "image_a1a2e267-e5d3-485d-bf46-fd93998a9557.png"
+  alt: "TFS Team Build 2010: Executing Unit Tests"
 ---
 
 There are some changes and improvements in the area of executing unit tests in Team Build 2010. Mostly the changes make it easier to define **which** unit tests you want to execute as part of the build. In this post I will go through the different options that you have when it comes to running unit tests and enabling code coverage.

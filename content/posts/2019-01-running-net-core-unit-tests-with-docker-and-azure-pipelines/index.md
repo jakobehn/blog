@@ -4,6 +4,9 @@ date: 2019-01-11T15:47:23Z
 slug: running-net-core-unit-tests-with-docker-and-azure-pipelines
 categories: [Azure DevOps]
 aliases: [/2019/01/running-net-core-unit-tests-with-docker-and-azure-pipelines/]
+cover:
+  image: "image_thumb.png"
+  alt: "Running .NET Core Unit Tests with Docker and Azure Pipelines"
 ---
 
 Using Docker for compiling your code is great since that guarantees a consistent behaviour regardless of where you are building your code. No matter if it’s on the local dev machine or on a build server somewhere. It also reduces the need of installing any dependencies just to make the code compile. The only thing that you need to install is Docker!

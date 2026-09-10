@@ -4,6 +4,9 @@ date: 2016-03-08T22:13:43Z
 slug: publish-a-github-release-from-visual-studio-team-services
 categories: [Build Automation, TFS API, Visual Studio Team Services]
 aliases: [/2016/03/publish-a-github-release-from-visual-studio-team-services/]
+cover:
+  image: "2_image_thumb.png"
+  alt: "Publish a GitHub Release from Visual Studio Team Services"
 ---
 
 The new build system in Team Foundation Server 2015 and Visual Studio Team Services has from the start made it very easy to integrate with GitHub. This integration allows you to create a build in TFS/VSTS that fetches the source code from a GitHub repository. I have blogged about this integration before, at [http://blog.ehn.nu/2015/06/building-github-repositories-in-tfs-build-vnext/](/2015/06/building-github-repositories-in-tfs-build-vnext/ "http://blog.ehn.nu/2015/06/building-github-repositories-in-tfs-build-vnext/").

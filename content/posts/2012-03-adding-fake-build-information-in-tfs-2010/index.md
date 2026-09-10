@@ -4,6 +4,9 @@ date: 2012-03-30T21:41:48Z
 slug: adding-fake-build-information-in-tfs-2010
 categories: [TFS, TFS API, TFS Build]
 aliases: [/2012/03/adding-fake-build-information-in-tfs-2010/]
+cover:
+  image: "22_image_thumb.png"
+  alt: "Adding Fake Build Information in TFS 2010"
 ---
 
 We have been using TFS 2010 build for distributing a build in parallel on several agents, but where the actual compilation is done by a bunch of external tools and compilers, e.g. no MSBuild involved. We are using the [ParallelTemplate.xaml template](http://blogs.msdn.com/b/jimlamb/archive/2010/09/14/parallelized-builds-with-tfs2010.aspx) that Jim Lamb blogged about previously, which distributes each configuration to a different agent. We developed custom activities for running these external compilers and collecting the information and errors by reading standard out/error and pushing it back to the build log.

@@ -5,6 +5,9 @@ slug: new-swedish-meetup-group-for-microsoft-alm-and-devops
 categories: [Continuous Delivery, TFS, Visual Studio Team Services]
 tags: [ALM, DevOps, Meetup, Stockholm, VSTS]
 aliases: [/2016/10/new-swedish-meetup-group-for-microsoft-alm-and-devops/]
+cover:
+  image: "image-1.png"
+  alt: "New Swedish Meetup Group for Microsoft ALM and DevOps"
 ---
 
 We have decided that it is time to create a meetup group for people that are interested in the Microsoft ALM and DevOps story!

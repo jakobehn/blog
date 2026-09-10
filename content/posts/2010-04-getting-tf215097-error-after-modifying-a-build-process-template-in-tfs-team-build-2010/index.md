@@ -4,6 +4,9 @@ date: 2010-04-21T23:52:47Z
 slug: getting-tf215097-error-after-modifying-a-build-process-template-in-tfs-team-build-2010
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/04/getting-tf215097-error-after-modifying-a-build-process-template-in-tfs-team-build-2010/]
+cover:
+  image: "41_image_thumb.png"
+  alt: "Getting TF215097 error after modifying a build process template in TFS Team Build 2010"
 ---
 
 When embracing Team Build 2010, you typically want to define several different build process templates for different scenarios. Common examples here are CI builds, QA builds and release builds. For example, in a contiuous build you often have no interest in publishing to the symbol store, you might or might not want to associate changesets and work items etc. The build server is often heavily occupied as it is, so you don’t want to have it doing more that necessary. Try to define a set of build process templates that are used across your company. In previous versions of TFS Team Build, there was no easy way to do this. But in TFS 2010 it is very easy so there is no excuse to not do it! :-)

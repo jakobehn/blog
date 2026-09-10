@@ -5,6 +5,9 @@ slug: debugging-dapr-applications-with-visual-studio-code
 categories: [Architecture, Microservices]
 tags: [Architecture, Dapr, Microservices]
 aliases: [/2020/03/debugging-dapr-applications-with-visual-studio-code/]
+cover:
+  image: "image_thumb.png"
+  alt: "Debugging Dapr applications with Visual Studio Code"
 ---
 
 I’ve been playing around with the [Dapr](https://dapr.io/) project recently, which is an interesting approach to building distributed, “microservices” applications. Tha main idea with Dapr is to make it easier for developers to implement distributed application running either in the cloud or on “the edge” (e.g. anywhere else), by implementing a lot of the cross-cutting concerns that is a part of every distributed app. Dapr consists of a number of building blocks, such as Service Invocation, State Service, Pub/Sub messaging and distributed tracing.

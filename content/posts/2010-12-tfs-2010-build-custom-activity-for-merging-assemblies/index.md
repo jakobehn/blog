@@ -4,6 +4,9 @@ date: 2010-12-15T01:59:29Z
 slug: tfs-2010-build-custom-activity-for-merging-assemblies
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/12/tfs-2010-build-custom-activity-for-merging-assemblies/]
+cover:
+  image: "34_image_thumb.png"
+  alt: "TFS 2010 Build Custom Activity for Merging Assemblies"
 ---
 
 *** The sample build process template discussed in this post is available for download from here: [http://cid-ee034c9f620cd58d.office.live.com/self.aspx/BlogSamples/ILMerge.xaml](http://cid-ee034c9f620cd58d.office.live.com/self.aspx/BlogSamples/ILMerge.xaml "http://cid-ee034c9f620cd58d.office.live.com/self.aspx/BlogSamples/ILMerge.xaml") ***

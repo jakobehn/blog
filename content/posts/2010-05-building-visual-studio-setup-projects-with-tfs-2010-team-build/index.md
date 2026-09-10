@@ -4,6 +4,9 @@ date: 2010-05-14T08:38:28Z
 slug: building-visual-studio-setup-projects-with-tfs-2010-team-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/05/building-visual-studio-setup-projects-with-tfs-2010-team-build/]
+cover:
+  image: "24_image_thumb_2.png"
+  alt: "Building Visual Studio Setup Projects with TFS 2010 Team Build"
 ---
 
 UPDATE: 2010-09-15 – Added details about the use of the ExitCode variable

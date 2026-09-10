@@ -4,6 +4,9 @@ date: 2015-11-02T14:19:52Z
 slug: performance-tests-for-azure-web-apps
 categories: [Visual Studio Team Services]
 aliases: [/2015/11/performance-tests-for-azure-web-apps/]
+cover:
+  image: "image_thumb_1.png"
+  alt: "Performance Tests for Azure Web Apps"
 ---
 
 Anyone that has been involved with setting up the infrastructure that is needed to perform on premise load testing of a realistic number of users knows how much work that is to both setup and to maintain. With Visual Studio Ultimate/Enterprise you needed to create a test rig by creating multiple machines and then installing a test controller and test agents on all the machines and configure them to talk to each other.

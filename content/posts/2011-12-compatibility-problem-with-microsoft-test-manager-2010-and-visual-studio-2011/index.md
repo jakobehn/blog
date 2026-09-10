@@ -4,6 +4,9 @@ date: 2011-12-09T11:38:00Z
 slug: compatibility-problem-with-microsoft-test-manager-2010-and-visual-studio-2011
 categories: [TFS, Visual Studio 2010]
 aliases: [/2011/12/compatibility-problem-with-microsoft-test-manager-2010-and-visual-studio-2011/]
+cover:
+  image: "13_image_thumb_4.png"
+  alt: "Compatibility Problem with Microsoft Test Manager 2010 and Visual Studio 2011"
 ---
 
 **UPDATE 10.01.2012: \**

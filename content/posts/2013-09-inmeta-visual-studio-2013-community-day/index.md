@@ -4,6 +4,9 @@ date: 2013-09-13T16:57:46Z
 slug: inmeta-visual-studio-2013-community-day
 categories: [Visual Studio 2013]
 aliases: [/2013/09/inmeta-visual-studio-2013-community-day/]
+cover:
+  image: "VSCommunityDay2013_thumb.jpg"
+  alt: "Inmeta Visual Studio 2013 Community Day"
 ---
 
 Yesterday, on September 12th, we arranged a Visual Studio Community Day 2013 at [Mesh](http://meshnorway.com) in central Oslo. The agenda was in two parts, first we talked about how you can improve your delivery cadence by using Visual Studio ALM. \

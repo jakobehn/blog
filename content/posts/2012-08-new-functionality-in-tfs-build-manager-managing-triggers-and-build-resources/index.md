@@ -4,6 +4,9 @@ date: 2012-08-24T14:28:36Z
 slug: new-functionality-in-tfs-build-manager-managing-triggers-and-build-resources
 categories: [TFS, TFS Build]
 aliases: [/2012/08/new-functionality-in-tfs-build-manager-managing-triggers-and-build-resources/]
+cover:
+  image: "19_image_thumb.png"
+  alt: "New functionality in TFS Build Manager – Managing Triggers and Build Resources"
 ---
 
 Yesterday we pushed out a new release (August 2012) of the [Community TFS Build Extension](http://tfsbuildextensions.codeplex.com/), including a new version of the [Community TFS Build Manager](http://visualstudiogallery.msdn.microsoft.com/cfdb84b4-285e-4eeb-9fa9-dad9bfe2cd10) (1.0.4.6)

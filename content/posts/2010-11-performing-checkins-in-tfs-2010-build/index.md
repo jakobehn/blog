@@ -4,6 +4,9 @@ date: 2010-11-03T10:20:53Z
 slug: performing-checkins-in-tfs-2010-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/11/performing-checkins-in-tfs-2010-build/]
+cover:
+  image: "21_image_thumb_1.png"
+  alt: "Performing Checkins in TFS 2010 Build"
 ---
 
 Update 15.03.2014 - Fixed broken link to download

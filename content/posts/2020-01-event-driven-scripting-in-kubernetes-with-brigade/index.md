@@ -5,6 +5,9 @@ slug: event-driven-scripting-in-kubernetes-with-brigade
 categories: [AKS, Azure DevOps, Kubernetes, Microsoft Azure]
 tags: [Azure, Events, Kubernetes]
 aliases: [/2020/01/event-driven-scripting-in-kubernetes-with-brigade/]
+cover:
+  image: "image_thumb.png"
+  alt: "Event-driven scripting in Kubernetes with Brigade"
 ---
 
 In most projects that I’ve been part of, sooner or later the need for various types of automation jobs arises. For example cleaning up old files, moving database backups, running health checks or system tests and so on.

@@ -4,6 +4,9 @@ date: 2010-05-05T00:04:13Z
 slug: executing-legacy-msbuild-scripts-in-tfs-2010-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/05/executing-legacy-msbuild-scripts-in-tfs-2010-build/]
+cover:
+  image: "25_image_thumb_2.png"
+  alt: "Executing legacy MSBuild scripts in TFS 2010 Build"
 ---
 
 When upgrading from TFS 2008 to TFS 2010, all builds are “upgraded” in the sense that a build definition with the same name is created, and it uses the *UpgradeTemplate*  build process template to execute the build. This template basically just runs MSBuild on the existing TFSBuild.proj file. The build definition contains a property called *ConfigurationFolderPath* that points to the TFSBuild.proj file.

@@ -4,6 +4,9 @@ date: 2012-07-15T23:51:33Z
 slug: tfs-build-dependency-replication-using-community-tfs-build-extensions
 categories: [TFS, TFS Build, Visual Studio 2012]
 aliases: [/2012/07/tfs-build-dependency-replication-using-community-tfs-build-extensions/]
+cover:
+  image: "20_image_thumb.png"
+  alt: "TFS Build: Dependency Replication using Community TFS Build Extensions"
 ---
 
 \

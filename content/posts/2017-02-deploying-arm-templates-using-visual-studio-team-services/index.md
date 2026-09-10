@@ -5,6 +5,9 @@ slug: deploying-arm-templates-using-visual-studio-team-services
 categories: [Continuous Delivery, Microsoft Azure, Visual Studio Release Management, Visual Studio Team Services]
 tags: [ARM, Azure, Visual Studio Team Services, VSTS]
 aliases: [/2017/02/deploying-arm-templates-using-visual-studio-team-services/]
+cover:
+  image: "image11.png"
+  alt: "Deploying ARM Templates using Visual Studio Team Services"
 ---
 
 If you are running your applications in Azure, and in particular on PaaS, you need to take a look ARM templates as a way to manage your environments. ARM templates let’s you define and deploy your entire environment using JSON files that you store together with the rest of your source code. The deployment of ARM templates are idempotent, meaning that you can run them many times and it will always produce the same result.

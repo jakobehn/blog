@@ -4,6 +4,9 @@ date: 2009-05-27T22:17:35Z
 slug: working-with-build-definitions-in-tfs-team-build-2010
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2009/05/working-with-build-definitions-in-tfs-team-build-2010/]
+cover:
+  image: "8_image_thumb_7.png"
+  alt: "Working with Build Definitions in TFS Team Build 2010"
 ---
 
 *Disclaimer: This blog post discusses features in the TFS 2010 Beta 1 release. Some of these  features might be changed in the RTM release. \*\

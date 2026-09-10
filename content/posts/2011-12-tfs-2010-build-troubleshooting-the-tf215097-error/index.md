@@ -4,6 +4,9 @@ date: 2011-12-08T20:51:48Z
 slug: tfs-2010-build-troubleshooting-the-tf215097-error
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2011/12/tfs-2010-build-troubleshooting-the-tf215097-error/]
+cover:
+  image: "17_image_thumb_1.png"
+  alt: "TFS 2010 Build - Troubleshooting the TF215097 error"
 ---
 
 Anyone working with developing custom activities in TFS 2010 Build has run into the following dreadful error message when running the build:

@@ -4,6 +4,9 @@ date: 2020-02-05T15:37:34Z
 slug: how-visual-studio-2019-supports-containerized-applications
 categories: [Docker]
 aliases: [/2020/02/how-visual-studio-2019-supports-containerized-applications/]
+cover:
+  image: "image_thumb.png"
+  alt: "How Visual Studio 2019 supports containerized applications"
 ---
 
 Visual Studio has for quite some time been adding features to make it easier to create, build, run and debug Dockerized applications.  This is great, because Docker can be quite daunting when you intially approach it and anything that makes that journey easier should be encouraged.

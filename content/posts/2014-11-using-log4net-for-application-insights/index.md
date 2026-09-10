@@ -4,6 +4,9 @@ date: 2014-11-09T21:08:14Z
 slug: using-log4net-for-application-insights
 categories: [Application Insights, Visual Studio Team Services]
 aliases: [/2014/11/using-log4net-for-application-insights/]
+cover:
+  image: "6_image_thumb_2.png"
+  alt: "Using Log4Net for Application Insights"
 ---
 
 Getting started with Application Insights (AI) in a new or existing application is very easy. From Visual Studio 2013 Update 3 it is even integrated right into the New Web Project dialog:

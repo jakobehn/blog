@@ -4,6 +4,9 @@ date: 2010-05-09T23:04:09Z
 slug: speed-up-loading-of-test-results-from-builds-in-visual-studio
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/05/speed-up-loading-of-test-results-from-builds-in-visual-studio/]
+cover:
+  image: "24_image_thumb_3.png"
+  alt: "Speed up loading of test results from builds in Visual Studio"
 ---
 
 I still see people complaining about the long time it takes to load test results from a TFS build in Visual Studio. And they make a valid point, it **does** take a very long time to load the test results, even for a small number of tests. The reason for this is that the test results is not just the result of the test run but also all the binaries that were part of the test run. This often also means that the debug symbols (*.pdb) will be downloaded to your local machine. This reason for this behaviour is that it letsyou re-run the tests locally.

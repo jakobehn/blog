@@ -4,6 +4,9 @@ date: 2015-04-29T21:58:32Z
 slug: deploying-an-azure-web-site-using-tfs-build-vnext
 categories: [TFS, TFS Build, Visual Studio Team Services]
 aliases: [/2015/04/deploying-an-azure-web-site-using-tfs-build-vnext/]
+cover:
+  image: "2_image_thumb_9.png"
+  alt: "Deploying an Azure Web Site using TFS Build vNext"
 ---
 
 TFS 2015 is around the corner, and with it comes a [whole new build system](http://geekswithblogs.net/jakob/archive/2015/01/15/tfs-build-vnext-ndash-a-preview.aspx). All the biggest pain points from the existing build system (now called “XAML builds”) are gone and instead we get a light weight build system with a web UI that makes it very easy to customize our build processes and that doesn’t perform a lot of magic such as redirecting your build output for example.

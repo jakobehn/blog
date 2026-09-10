@@ -4,6 +4,9 @@ date: 2016-01-24T20:12:05Z
 slug: deploy-azure-web-apps-with-parameterization
 categories: [Build Automation, Continuous Delivery, Release Management, TFS, Visual Studio Team Services]
 aliases: [/2016/01/deploy-azure-web-apps-with-parameterization/]
+cover:
+  image: "image_thumb-1.png"
+  alt: "Deploy Azure Web Apps with Parameterization"
 ---
 
 I have [blogged before about how to deploy an Azure Web App using the new build system](http://geekswithblogs.net/jakob/archive/2015/04/29/deploying-an-azure-web-site-using-tfs-build-vnext.aspx) in TFS 2015/Visual Studio Team Services. In addition to configure an Azure service endpoint, it is really only a matter of using the built-in [Azure Web App Deployment](https://github.com/Microsoft/vso-agent-tasks/blob/master/Tasks/AzureWebPowerShellDeployment/task.json) task.

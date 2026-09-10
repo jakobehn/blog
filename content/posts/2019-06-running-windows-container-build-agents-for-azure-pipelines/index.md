@@ -4,6 +4,9 @@ date: 2019-06-20T10:29:39Z
 slug: running-windows-container-build-agents-for-azure-pipelines
 categories: [Azure DevOps, Build Automation, Continuous Delivery, Docker, Microsoft Azure]
 aliases: [/2019/06/running-windows-container-build-agents-for-azure-pipelines/]
+cover:
+  image: "image_thumb.png"
+  alt: "Running Windows Container Build Agents for Azure Pipelines"
 ---
 
 In [a previous post](/2019/01/creating-a-windows-container-build-agent-for-azure-pipelines/) I talked about how to create a build environment, including an Azure DevOps build agent, using Docker and Windows Containers. Using Dockerfiles, we can specify everything that we need in order to build and test our projects. Docker gives us Infrastructure as Code (no more snowflake build servers) and isolation which makes it easy to spin up multiple agents quickly on one or more machines without interfering with each other.

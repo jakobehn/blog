@@ -4,6 +4,9 @@ date: 2016-01-18T19:14:31Z
 slug: downloading-build-artifacts-in-tfs-build-vnext
 categories: [Build Automation, Release Management, TFS, Visual Studio Team Services]
 aliases: [/2016/01/downloading-build-artifacts-in-tfs-build-vnext/]
+cover:
+  image: "3_image_thumb.png"
+  alt: "Downloading Build Artifacts in TFS Build vNext"
 ---
 
 Since a couple of months back, Microsoft new [Release Management servic](/2015/12/microsoft-announces-next-generation-of-visual-studio-release-management/)e is available in public preview in Visual Studio Team Services. According to the current time plan, it will be released for on-premise TFS in the next update (Update 2).

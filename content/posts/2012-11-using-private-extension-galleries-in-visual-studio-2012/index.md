@@ -4,6 +4,9 @@ date: 2012-11-07T20:47:34Z
 slug: using-private-extension-galleries-in-visual-studio-2012
 categories: [Visual Studio 2012]
 aliases: [/2012/11/using-private-extension-galleries-in-visual-studio-2012/]
+cover:
+  image: "5_image_thumb_5.png"
+  alt: "Using Private Extension Galleries in Visual Studio 2012"
 ---
 
 **Updated January 13th 2013**:  Added note about ASP.NET MVC 4.0 prerequirement

@@ -4,6 +4,9 @@ date: 2011-12-30T12:36:06Z
 slug: introducing-community-tfs-build-manager
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2011/12/introducing-community-tfs-build-manager/]
+cover:
+  image: "4_image_thumb_12.png"
+  alt: "Introducing: Community TFS Build Manager"
 ---
 
 The latest release of the [Community TFS Build Extensions](http://tfsbuildextensions.codeplex.com/) include a brand new tool called *Community TFS Build Manager* and has been created for two reasons:

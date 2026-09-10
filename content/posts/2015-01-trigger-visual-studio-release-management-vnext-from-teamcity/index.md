@@ -4,6 +4,9 @@ date: 2015-01-14T22:56:58Z
 slug: trigger-visual-studio-release-management-vnext-from-teamcity
 categories: [TFS, TFS API, Visual Studio Release Management, Visual Studio Team Services]
 aliases: [/2015/01/trigger-visual-studio-release-management-vnext-from-teamcity/]
+cover:
+  image: "6_image_thumb_1.png"
+  alt: "Trigger Visual Studio Release Management vNext from TeamCity"
 ---
 
 The last couple of updates to Visual Studio has included a lot of new functionality for Visual Studio Release Management. The biggest one is the introduction of so called vNext releases, that leverages Powershell DSC for carrying out the provisioning and deployments of environments and applications.

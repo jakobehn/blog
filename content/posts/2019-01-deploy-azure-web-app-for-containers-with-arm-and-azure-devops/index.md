@@ -3,6 +3,9 @@ title: Deploy Azure Web App for Containers with ARM and Azure DevOps
 date: 2019-01-13T22:25:17Z
 slug: deploy-azure-web-app-for-containers-with-arm-and-azure-devops
 aliases: [/2019/01/deploy-azure-web-app-for-containers-with-arm-and-azure-devops/]
+cover:
+  image: "image_thumb1_thumb.png"
+  alt: "Deploy Azure Web App for Containers with ARM and Azure DevOps"
 ---
 
 Using Docker containers  for building and running your applications has many advantages such as consistent builds, build-once run anywhere and easy standardized packaging and deployment format, just to name a few.

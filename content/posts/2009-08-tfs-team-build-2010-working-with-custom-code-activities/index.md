@@ -4,6 +4,9 @@ date: 2009-08-13T09:38:24Z
 slug: tfs-team-build-2010-working-with-custom-code-activities
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2009/08/tfs-team-build-2010-working-with-custom-code-activities/]
+cover:
+  image: "image_45c09d66-e8f7-4313-ab97-a99e570aac23.png"
+  alt: "TFS Team Build 2010: Working with Custom Code Activities"
 ---
 
 *Disclaimer: This blog post discusses features in the TFS 2010 Beta 1 release. Some of these  features might be changed in the RTM release.*

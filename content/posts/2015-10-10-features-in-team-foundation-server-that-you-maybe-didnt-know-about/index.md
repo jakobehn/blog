@@ -4,6 +4,9 @@ date: 2015-10-25T17:37:23Z
 slug: 10-features-in-team-foundation-server-that-you-maybe-didnt-know-about
 categories: [TFS, Visual Studio Team Services]
 aliases: [/2015/10/10-features-in-team-foundation-server-that-you-maybe-didnt-know-about/]
+cover:
+  image: "1_image_thumb_4.png"
+  alt: "10 Features in Team Foundation Server that you maybe didn’t know about"
 ---
 
 I often talk to different teams about how they work with Team Foundation Server or Visual Studio Online. I get a lot of questions about different features, and some of them tend to come up more often than other. So here is a list of 10 features in TFS that I get questions about regularly or that I have noticed a lot of teams don’t know about. It is by no means exhaustive, and it is a mixture of smaller and larger features, but hopefully you will find something here that you didn’t know about before.

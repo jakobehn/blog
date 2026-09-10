@@ -4,6 +4,9 @@ date: 2010-04-15T23:50:49Z
 slug: implementing-release-notes-in-tfs-team-build-2010
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2010/04/implementing-release-notes-in-tfs-team-build-2010/]
+cover:
+  image: "30_image_thumb_1.png"
+  alt: "Implementing Release Notes in TFS Team Build 2010"
 ---
 
 In TFS Team Build (all versions), each build is associated with changesets and work items. To determine which changesets that should be associated with the current build, Team Build finds the label of the “Last Good Build” an then aggregates all changesets up unitl the label for the current build. Basically this means that if your build is failing, every changeset that is checked in will be accumulated in this list until the build is successful.

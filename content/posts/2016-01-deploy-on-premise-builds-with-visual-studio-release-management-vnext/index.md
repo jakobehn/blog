@@ -4,6 +4,9 @@ date: 2016-01-28T21:23:00Z
 slug: deploy-on-premise-builds-with-visual-studio-release-management-vnext
 categories: [Visual Studio 2010, Visual Studio 2012]
 aliases: [/2016/01/deploy-on-premise-builds-with-visual-studio-release-management-vnext/]
+cover:
+  image: "1_image_thumb-2.png"
+  alt: "Deploy On Premise Builds with Visual Studio Release Management vNext"
 ---
 
 Microsoft's [new version of Visual Studio Release Management](/2015/12/microsoft-announces-next-generation-of-visual-studio-release-management/) is currently in public preview in VSTS. It is currently targeted for the TFS 2015 Update 2 version that should be shipped later this spring.

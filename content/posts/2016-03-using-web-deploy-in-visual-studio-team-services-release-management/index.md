@@ -4,6 +4,9 @@ date: 2016-03-21T21:40:45Z
 slug: using-web-deploy-in-visual-studio-team-services-release-management
 categories: [Continuous Delivery, TFS Build, Visual Studio Release Management, Visual Studio Team Services]
 aliases: [/2016/03/using-web-deploy-in-visual-studio-team-services-release-management/]
+cover:
+  image: "image_thumb-3.png"
+  alt: "Using Web Deploy in Visual Studio Team Services Release Management"
 ---
 
 This post does not really cover something new, but since I find myself explain this to people now and then, I thought that I’d write a quick post on the subject.

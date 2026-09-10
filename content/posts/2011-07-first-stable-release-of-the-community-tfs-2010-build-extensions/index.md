@@ -4,6 +4,9 @@ date: 2011-07-04T22:50:15Z
 slug: first-stable-release-of-the-community-tfs-2010-build-extensions
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2011/07/first-stable-release-of-the-community-tfs-2010-build-extensions/]
+cover:
+  image: "30_image_thumb.png"
+  alt: "First stable release of the Community TFS 2010 Build Extensions"
 ---
 
 Today the first stable release of the [Community TFS 2010 Build Extensions](http://tfsbuildextensions.codeplex.com/) shipped on the CodePlex site. Visual Studio ALM MVP [Mike Fourie](http://freetodev.com/) (aka Mr [MSBuild Extension Pack](http://msbuildextensionpack.codeplex.com/)) has been the leader of this project and has done a tremendous job, both in contributing functionality as well as coordinating the work for the first release. Great work Mike! I (as well as several others) have contributed a small part of the activities, I plan to be working on the upcoming releases as well.

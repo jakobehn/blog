@@ -4,6 +4,9 @@ date: 2013-12-26T22:37:28Z
 slug: inmeta-visual-studio-extension-gallery-version-2-0
 categories: [Visual Studio 2012, Visual Studio 2013]
 aliases: [/2013/12/inmeta-visual-studio-extension-gallery-version-2-0/]
+cover:
+  image: "14_image_thumb.png"
+  alt: "Inmeta Visual Studio Extension Gallery – version 2.0"
 ---
 
 This year at the second MVP summit I presented a new solution for hosting a private extension gallery. Since then I have finished up the code and put it up on the CodePlex site so you can use it as you want to. \

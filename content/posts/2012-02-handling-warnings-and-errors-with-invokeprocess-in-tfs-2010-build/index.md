@@ -4,6 +4,9 @@ date: 2012-02-01T20:55:18Z
 slug: handling-warnings-and-errors-with-invokeprocess-in-tfs-2010-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2012/02/handling-warnings-and-errors-with-invokeprocess-in-tfs-2010-build/]
+cover:
+  image: "15_image_thumb_3.png"
+  alt: "Handling Warnings and Errors with InvokeProcess in TFS 2010 Build"
 ---
 
 \

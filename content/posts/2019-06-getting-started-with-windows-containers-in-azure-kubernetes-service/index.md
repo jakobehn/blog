@@ -4,6 +4,9 @@ date: 2019-06-28T14:12:04Z
 slug: getting-started-with-windows-containers-in-azure-kubernetes-service
 categories: [AKS, Docker, Kubernetes, Microsoft Azure]
 aliases: [/2019/06/getting-started-with-windows-containers-in-azure-kubernetes-service/]
+cover:
+  image: "image_thumb-3.png"
+  alt: "Getting started with Windows Containers in Azure Kubernetes Service"
 ---
 
 Many of us have eagerly been waiting for the announcement that Microsoft made at the Build 2019 conference, Windows Containers is now in public preview in Azure Kubernetes Service! Yes, it’s in preview so we still have to wait before putting applications into production but it is definitely time to start planning and testing migrations of your Windows applications to AKS, such as full .NET Framework apps.

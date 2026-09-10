@@ -4,6 +4,9 @@ date: 2010-11-03T02:23:40Z
 slug: managing-build-process-templates-in-tfs-2010-build
 categories: [TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2010/11/managing-build-process-templates-in-tfs-2010-build/]
+cover:
+  image: "23_image_thumb.png"
+  alt: "Managing Build Process Templates in TFS 2010 Build"
 ---
 
 One of the great new features in TFS 2010 Build was the ability to define Build Process Templates that can be reused across build definitions. The Build Process Template file itself is a Windows Workflow 4.0 xaml file \

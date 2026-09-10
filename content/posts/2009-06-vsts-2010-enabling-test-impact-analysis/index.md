@@ -4,6 +4,9 @@ date: 2009-06-04T18:08:20Z
 slug: vsts-2010-enabling-test-impact-analysis
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2009/06/vsts-2010-enabling-test-impact-analysis/]
+cover:
+  image: "image_b449ad0b-19e1-43da-9403-2ee80756bed3.png"
+  alt: "VSTS 2010: Enabling Test Impact Analysis"
 ---
 
 A really cool new feature in VSTS 2010 is *Test Impact Analysis* which let developers view what tests that are affected by the current code changes. Pieter Gheysens wrote a [blog post](http://intovsts.net/2009/02/05/test-impact-analysis/) on how to set this up in the CTP, but things have changed a bit in Beta 1 so I thought that I would show how it is done. Since it still is a bit unintuitive to enable it, it might change once again in the RTM. The reason that it is a bit unintuitive to set it up, is because you need to have the following things:

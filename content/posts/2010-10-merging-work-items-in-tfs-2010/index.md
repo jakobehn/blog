@@ -4,6 +4,9 @@ date: 2010-10-27T08:10:13Z
 slug: merging-work-items-in-tfs-2010
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/10/merging-work-items-in-tfs-2010/]
+cover:
+  image: "22_image_thumb_2.png"
+  alt: "Merging Work Items in TFS 2010"
 ---
 
 In TFS 2010, branching and merging have been greatly improved with support for branch visualization and tracking of changesets and work items across branches. A simple example of this looks like this: \

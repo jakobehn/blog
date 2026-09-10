@@ -4,6 +4,9 @@ date: 2010-12-08T08:02:09Z
 slug: dependency-replication-with-tfs-2010-build
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2010/12/dependency-replication-with-tfs-2010-build/]
+cover:
+  image: "35_image_thumb.png"
+  alt: "Dependency Replication with TFS 2010 Build"
 ---
 
 Some time ago, I wrote a [post](http://geekswithblogs.net/jakob/archive/2009/03/05/implementing-dependency-replication-with-tfs-team-build.aspx) about how to implement dependency replication using TFS 2008 Build. We use this for *Library builds*, where we set up a build definition for a common library, and have the build check the resulting assemblies back into source control. The folder **is** then branched to the applications that need to reference the common library. See the above post for more details.

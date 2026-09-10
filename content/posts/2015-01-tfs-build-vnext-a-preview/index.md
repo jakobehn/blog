@@ -4,6 +4,9 @@ date: 2015-01-15T11:00:35Z
 slug: tfs-build-vnext-a-preview
 categories: [TFS, Visual Studio Team Services]
 aliases: [/2015/01/tfs-build-vnext-a-preview/]
+cover:
+  image: "1_image_thumb_13.png"
+  alt: "TFS Build vNext – A Preview"
 ---
 
 Currently, Microsoft is working hard on a complete rewrite of the TFS Build system. They announced this, among other things, at the Connect event back in November and did a short demo of it. It is not yet available, but as part of the MVP program, a few of us has now been fortunate enough to get access to an early preview of the new build system.

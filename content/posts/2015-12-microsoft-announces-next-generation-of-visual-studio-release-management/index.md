@@ -3,6 +3,9 @@ title: Microsoft Announces Next Generation of Visual Studio Release Management
 date: 2015-12-07T21:11:48Z
 slug: microsoft-announces-next-generation-of-visual-studio-release-management
 aliases: [/2015/12/microsoft-announces-next-generation-of-visual-studio-release-management/]
+cover:
+  image: "image_thumb1.png"
+  alt: "Microsoft Announces Next Generation of Visual Studio Release Management"
 ---
 
 Today at the Microsoft Connect() event, Microsoft announced the public preview of the brand new version of Visual Studio Release Management. The public preview is available on ***Visual Studio Team Services*** (a.k.a. *Visual Studio Online*, in case you missed that announcement! :-)), and will debut on premise later in 2016.

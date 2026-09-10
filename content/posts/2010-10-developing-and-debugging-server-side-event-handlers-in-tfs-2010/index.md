@@ -4,6 +4,9 @@ date: 2010-10-27T22:48:11Z
 slug: developing-and-debugging-server-side-event-handlers-in-tfs-2010
 categories: [TFS, TFS API, Visual Studio 2010]
 aliases: [/2010/10/developing-and-debugging-server-side-event-handlers-in-tfs-2010/]
+cover:
+  image: "36_image_thumb.png"
+  alt: "Developing and debugging Server Side Event Handlers in TFS 2010"
 ---
 
 \

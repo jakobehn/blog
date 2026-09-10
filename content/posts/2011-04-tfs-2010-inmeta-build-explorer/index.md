@@ -4,6 +4,9 @@ date: 2011-04-04T09:38:07Z
 slug: tfs-2010-inmeta-build-explorer
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2011/04/tfs-2010-inmeta-build-explorer/]
+cover:
+  image: "32_image_thumb.png"
+  alt: "TFS 2010 Inmeta Build Explorer"
 ---
 
 This weekend we at Inmeta release a free Visual Studio 2010 Team Explorer extensions that solves the problem with the Builds node in the Team Explorer not being hierarchic. For some reason, this part of the Team Explorer didn’t get the nice hierarchical folder structure that the Work items node got in 2010. The result is that, for a company that has several hundreds of builds in the same team project, it becomes very hard to navigate.

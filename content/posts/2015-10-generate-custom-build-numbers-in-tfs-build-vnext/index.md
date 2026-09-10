@@ -4,6 +4,9 @@ date: 2015-10-15T23:15:12Z
 slug: generate-custom-build-numbers-in-tfs-build-vnext
 categories: [TFS, TFS Build, Visual Studio Team Services]
 aliases: [/2015/10/generate-custom-build-numbers-in-tfs-build-vnext/]
+cover:
+  image: "2_image_thumb_1.png"
+  alt: "Generate custom build numbers in TFS Build vNext"
 ---
 
 By now, many of you should have had the chance to at least play with the new build system that was released in TFS 2015 and Visual Studio Online. [Here is an introductory post I wrote about it](http://geekswithblogs.net/jakob/archive/2015/01/15/tfs-build-vnext-ndash-a-preview.aspx) when it entered public preview back in January.

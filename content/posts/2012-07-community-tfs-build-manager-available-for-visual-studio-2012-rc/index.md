@@ -4,6 +4,9 @@ date: 2012-07-02T22:44:07Z
 slug: community-tfs-build-manager-available-for-visual-studio-2012-rc
 categories: [TFS, TFS Build]
 aliases: [/2012/07/community-tfs-build-manager-available-for-visual-studio-2012-rc/]
+cover:
+  image: "12_image_thumb_3.png"
+  alt: "Community TFS Build Manager available for Visual Studio 2012 RC"
 ---
 
 I finally got around to push out a version of the Community TFS Build Manager that is compatible with Visual Studio 2012 RC. Unfortunately I had to do this as a separate extension, \

@@ -4,6 +4,9 @@ date: 2012-09-05T21:39:47Z
 slug: get-started-using-build-deploy-test-workflow-with-tfs-2012
 categories: [TFS, TFS Build]
 aliases: [/2012/09/get-started-using-build-deploy-test-workflow-with-tfs-2012/]
+cover:
+  image: "7_image_thumb_4.png"
+  alt: "Get Started using Build-Deploy-Test Workflow with TFS 2012"
 ---
 
 TFS 2012 introduces a new type of Lab environment called Standard Environment. This allows you to setup a full Build Deploy Test (BDT) workflow that will build your application, deploy it to your target machine(s) and then run a set of tests on that server to verify the deployment. In TFS 2010, you had to use System Center Virtual Machine Manager and involve half of your IT department to get going. Now all you need is a server (virtual or physical) where you want to deploy and test your application. You don’t even have to install a test agent on the machine, TFS 2012 will do this for you!

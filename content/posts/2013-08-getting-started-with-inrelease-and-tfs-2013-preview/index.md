@@ -4,6 +4,9 @@ date: 2013-08-23T15:35:16Z
 slug: getting-started-with-inrelease-and-tfs-2013-preview
 categories: [TFS, TFS Build, Visual Studio 2013]
 aliases: [/2013/08/getting-started-with-inrelease-and-tfs-2013-preview/]
+cover:
+  image: "5_image_thumb_6.png"
+  alt: "Getting started with InRelease and TFS 2013 Preview"
 ---
 
 As you probably already know, Microsoft [recently acquired InRelease](http://blogs.msdn.com/b/bharry/archive/2013/07/10/inrelease-acquisition-is-complete.aspx), a release management product build by InCycle software that integrates tightly with Team Foundation Server. This acquisition fills a huge gap in the Visual Studio ALM suite, letting customers handle the release management and automatic deployment of their solution. This is a crucial feature for enabling Continuous Deployment.

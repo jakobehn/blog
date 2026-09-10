@@ -4,6 +4,9 @@ date: 2012-02-21T14:02:04Z
 slug: managing-build-templates-with-community-tfs-build-manager
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2012/02/managing-build-templates-with-community-tfs-build-manager/]
+cover:
+  image: "23_image_thumb.png"
+  alt: "Managing Build Templates with Community TFS Build Manager"
 ---
 
 A year ago I blogged about how to [manage your build process templates using the TFS API](http://geekswithblogs.net/jakob/archive/2010/11/03/managing-build-process-templates-in-tfs-2010-build.aspx). The main reason for doing this is that you can (and should!) store your “golden” build process templates in a common location in your TFS project collection, and then add them to each team project that requires those templates. This way, you can fix a bug or add a new feature in one place and have the change affect all build definitions.

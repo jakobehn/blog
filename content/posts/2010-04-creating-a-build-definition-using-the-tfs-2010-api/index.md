@@ -4,6 +4,9 @@ date: 2010-04-26T20:09:00Z
 slug: creating-a-build-definition-using-the-tfs-2010-api
 categories: [TFS, TFS API, TFS Build, Visual Studio 2010]
 aliases: [/2010/04/creating-a-build-definition-using-the-tfs-2010-api/]
+cover:
+  image: "28_image_thumb_1.png"
+  alt: "Creating a Build Definition using the TFS 2010 API"
 ---
 
 *** UPDATE 2010-08-17 ** Several people have asked me for a complete sample application, so I have put this together and it is available here: \

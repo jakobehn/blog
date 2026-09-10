@@ -5,6 +5,9 @@ slug: microsoft-developer-roadshow-sweden-with-active-solution
 categories: [IoT, Microsoft Azure]
 tags: [IoT, Microsoft Azure]
 aliases: [/2015/12/microsoft-developer-roadshow-sweden-with-active-solution/]
+cover:
+  image: "image_thumb7.png"
+  alt: "Microsoft Developer Roadshow Sweden with Active Solution"
 ---
 
 [![image](image_thumb7.png "image")](image7.png)

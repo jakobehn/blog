@@ -4,6 +4,9 @@ date: 2018-09-10T17:39:27Z
 slug: meet-azure-devops-formerly-known-as-vsts
 categories: [Visual Studio Team Services]
 aliases: [/2018/09/meet-azure-devops-formerly-known-as-vsts/]
+cover:
+  image: "index-hero.jpg"
+  alt: "Meet Azure DevOps - formerly known as VSTS"
 ---
 
 Today Microsoft announced [Azure DevOps](https://azure.microsoft.com/en-us/blog/introducing-azure-devops/), which is partly a rebranding of the existing Visual Studio Team Services but also has some exciting news.

@@ -4,6 +4,9 @@ date: 2010-06-08T06:08:40Z
 slug: tfs-2010-build-dealing-with-the-api-restriction-error
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/06/tfs-2010-build-dealing-with-the-api-restriction-error/]
+cover:
+  image: "37_image_thumb.png"
+  alt: "TFS 2010 Build: Dealing with the API restriction error"
 ---
 
 Recently I’ve come across this error a couple of times when running builds that exeucte unit tests using Test containers:

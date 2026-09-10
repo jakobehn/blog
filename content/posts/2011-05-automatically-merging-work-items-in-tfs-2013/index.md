@@ -4,6 +4,9 @@ date: 2011-05-17T20:43:31Z
 slug: automatically-merging-work-items-in-tfs-2013
 categories: [TFS, TFS API, Visual Studio 2010, Visual Studio 2013]
 aliases: [/2011/05/automatically-merging-work-items-in-tfs-2013/]
+cover:
+  image: "31_image_thumb.png"
+  alt: "Automatically Merging Work Items in TFS 2013"
 ---
 
 ** Source available at [http://mergeworkitems.codeplex.com/](http://mergeworkitems.codeplex.com/ "http://mergeworkitems.codeplex.com/") **

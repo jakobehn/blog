@@ -29,27 +29,58 @@ enableEmoji = true
 
 [params]
   description = "Cloudy DevOps stuff with Azure"
+  defaultTheme = "auto"
+  images = ["cover.png"]
   ShowReadingTime = true
+  ShowWordCount = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
   ShowBreadCrumbs = false
   ShowPostNavLinks = true
-  ShowShareButtons = false
+  ShowShareButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
   disableThemeToggle = false
 
   [params.homeInfoParams]
-    Title = "blog.ehn.nu"
-    Content = "Cloudy DevOps stuff with Azure"
+    Title = "blog.ehn.nu 👋"
+    Content = "Cloudy DevOps stuff with Azure — build pipelines, platform engineering and the occasional war story. Blogging since 2009."
+
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+    hiddenInSingle = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/jakobehn"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 # Categories carried over from WordPress; tags were barely used.
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+# Posts without a usable image of their own fall back to the site cover.
+[[cascade]]
+  [cascade.cover]
+    image = "cover.png"
+    alt = "blog.ehn.nu"
+  [cascade._target]
+    path = "/posts/**"
 
 [[menu.main]]
   name = "Archive"
@@ -71,6 +102,10 @@ enableEmoji = true
   name = "Speaking"
   url = "/speaking/"
   weight = 50
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -4,6 +4,9 @@ date: 2015-02-12T18:12:08Z
 slug: introducing-gitflow-for-visual-studio
 categories: [TFS API, Visual Studio 2013]
 aliases: [/2015/02/introducing-gitflow-for-visual-studio/]
+cover:
+  image: "9_image_thumb.png"
+  alt: "Introducing GitFlow for Visual Studio"
 ---
 
 **Update**: The exension is now also available for Visual Studio 2015 Preview: [https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a](https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a "https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a")

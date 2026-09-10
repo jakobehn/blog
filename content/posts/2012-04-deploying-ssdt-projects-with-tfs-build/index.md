@@ -4,6 +4,9 @@ date: 2012-04-25T21:29:05Z
 slug: deploying-ssdt-projects-with-tfs-build
 categories: [TFS, TFS Build, Visual Studio 2012]
 aliases: [/2012/04/deploying-ssdt-projects-with-tfs-build/]
+cover:
+  image: "21_image_thumb.png"
+  alt: "Deploying SSDT Projects with TFS Build"
 ---
 
 As many of you probably have noticed by now, [Visual Studio Database Projects](http://msdn.microsoft.com/en-us/library/xee70aty.aspx) are not supported in the next version of Visual Studio (currently named \

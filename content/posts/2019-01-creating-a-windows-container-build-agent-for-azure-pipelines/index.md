@@ -4,6 +4,9 @@ date: 2019-01-18T12:57:46Z
 slug: creating-a-windows-container-build-agent-for-azure-pipelines
 categories: [Azure DevOps, Build Automation, Docker]
 aliases: [/2019/01/creating-a-windows-container-build-agent-for-azure-pipelines/]
+cover:
+  image: "image_thumb-8.png"
+  alt: "Creating a Windows Container Build Agent for Azure Pipelines"
 ---
 
 Having automated builds that are stable and predictable is so important in order to succeed with CI/CD. One important practice to enable this is to have a fully scriptable build environment that lets you deploy multiple, identical, build envionment hosts. This can be done by using image tooling such as Packer from HahsiCorp. Another option is to use Docker which is what I am using in this post.

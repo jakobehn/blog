@@ -4,6 +4,9 @@ date: 2013-05-16T18:29:44Z
 slug: extending-team-explorer-2012-associating-recent-work-items
 categories: [TFS, Visual Studio 2012]
 aliases: [/2013/05/extending-team-explorer-2012-associating-recent-work-items/]
+cover:
+  image: "5_image_thumb_4.png"
+  alt: "Extending Team Explorer 2012 – Associating Recent Work Items"
 ---
 
 **Extension available at:** [http://visualstudiogallery.msdn.microsoft.com/9ed2d30c-a692-42b0-a21d-cdc8d2bf322c](http://visualstudiogallery.msdn.microsoft.com/9ed2d30c-a692-42b0-a21d-cdc8d2bf322c "http://visualstudiogallery.msdn.microsoft.com/9ed2d30c-a692-42b0-a21d-cdc8d2bf322c")

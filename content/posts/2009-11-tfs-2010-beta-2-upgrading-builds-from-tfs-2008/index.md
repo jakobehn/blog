@@ -4,6 +4,9 @@ date: 2009-11-24T20:23:13Z
 slug: tfs-2010-beta-2-upgrading-builds-from-tfs-2008
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2009/11/tfs-2010-beta-2-upgrading-builds-from-tfs-2008/]
+cover:
+  image: "42_image_thumb.png"
+  alt: "TFS 2010 Beta 2 – Upgrading Builds from TFS 2008"
 ---
 
 We are in the process of upgrading the entire company to TFS 2010 Beta 2, and in preparing for that we have done some test upgrades to make sure that all things work as expected after the upgrade. As expected, most issues that turned up had to do with builds. This is one of the areas that has changed the most compared to TFS 2008. I thought that I would use this post to run through some of the issues that we found.

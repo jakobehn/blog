@@ -4,6 +4,9 @@ date: 2014-05-07T20:43:39Z
 slug: tfs-build-nuget-exe-was-not-found-in-the-expected-location
 categories: [TFS, TFS Build, Visual Studio 2013]
 aliases: [/2014/05/tfs-build-nuget-exe-was-not-found-in-the-expected-location/]
+cover:
+  image: "13_image_thumb.png"
+  alt: "TFS Build: NuGet.exe was not found in the expected location"
 ---
 
 ## Problem

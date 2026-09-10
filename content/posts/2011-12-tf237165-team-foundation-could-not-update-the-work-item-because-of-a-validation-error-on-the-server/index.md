@@ -4,6 +4,9 @@ date: 2011-12-12T17:21:15Z
 slug: tf237165-team-foundation-could-not-update-the-work-item-because-of-a-validation-error-on-the-server
 categories: [TFS Build, Visual Studio 2010]
 aliases: [/2011/12/tf237165-team-foundation-could-not-update-the-work-item-because-of-a-validation-error-on-the-server/]
+cover:
+  image: "27_image_thumb.png"
+  alt: "TF237165: Team Foundation could not update the work item because of a validation error on the server."
 ---
 
 I often use the VS 2010/TFS 2010 evaluation virtual machines that Microsoft publishes every 6 months with the latest bits. It’s a great timesaver to use an image where everything is already setup and also contains a bit of sample data that is useful when you want to demo something for customers.

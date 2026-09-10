@@ -4,6 +4,9 @@ date: 2013-01-20T21:54:47Z
 slug: tfs-build-running-static-code-analysis-for-specific-configuration
 categories: [TFS, TFS Build, Visual Studio 2012]
 aliases: [/2013/01/tfs-build-running-static-code-analysis-for-specific-configuration/]
+cover:
+  image: "8_image_thumb_1.png"
+  alt: "TFS Build: Running Static Code Analysis for Specific Configuration"
 ---
 
 \

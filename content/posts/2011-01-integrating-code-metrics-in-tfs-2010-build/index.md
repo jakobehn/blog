@@ -4,6 +4,9 @@ date: 2011-01-30T20:39:50Z
 slug: integrating-code-metrics-in-tfs-2010-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2011/01/integrating-code-metrics-in-tfs-2010-build/]
+cover:
+  image: "15_image_thumb_4.png"
+  alt: "Integrating Code Metrics in TFS 2010 Build"
 ---
 
 The build process template and custom activity described in this post is available here: \

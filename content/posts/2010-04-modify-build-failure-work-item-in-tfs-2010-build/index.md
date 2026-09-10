@@ -4,6 +4,9 @@ date: 2010-04-28T08:15:25Z
 slug: modify-build-failure-work-item-in-tfs-2010-build
 categories: [TFS, TFS Build, Visual Studio 2010]
 aliases: [/2010/04/modify-build-failure-work-item-in-tfs-2010-build/]
+cover:
+  image: "40_image_thumb.png"
+  alt: "Modify Build Failure Work Item in TFS 2010 Build"
 ---
 
 The default behaviour in TFS Team Build (all versions) is to create a bug work item when a build fails. This main benefit of this is that you get a work item for something that needs to be done, namely to fix the build!. When the developer responsible for the build failure has fixed the problem, he/she can associated that check-in with the work item that was created from the previous build failure.

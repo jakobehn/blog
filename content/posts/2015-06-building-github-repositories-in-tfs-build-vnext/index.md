@@ -4,6 +4,9 @@ date: 2015-06-12T12:53:08Z
 slug: building-github-repositories-in-tfs-build-vnext
 categories: [TFS, TFS Build, Visual Studio Team Services]
 aliases: [/2015/06/building-github-repositories-in-tfs-build-vnext/]
+cover:
+  image: "2_image_thumb_4.png"
+  alt: "Building GitHub repositories in TFS Build vNext"
 ---
 
 In the brave new world of Microsoft where a lot of the frameworks and languages that they build now are open sourced over at GitHub, it comes as no surprise that GitHub is nicely integrated into both \
